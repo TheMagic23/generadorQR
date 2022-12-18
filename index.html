@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Código QR </title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="estilos.css" />
+		<link rel="stylesheet" href="./css/bootstrap.min.css" />
+		<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+	  />
+		
+	</head>
+	<body class="imagen_contor">
+	
+	<header>
+		<nav class="row justify-content-between  align-items">
+     
+		<a> 
+			<img  src="./image/2560px-Logo_DuocUC.svg.png" alt="Photo" style="width:100%;" class="commers__img">
+          
+		</a>
+		</nav>
+
+	</header> 
+	
+   <section class="contenedor2">
+	<div class="col-12 text-center">
+		<h2 class="text-blue text-uppercase ">Bienvenido al sistema de código QR</h2>
+		<h3 class="h5"> Dentro de este sitio se encuentra el creador de código QR</h3>
+	  </div>
+   </section>
+	
+		<section class="contenedor">
+			<form action="" id="formulario" class="formulario">
+				<input type="text" id="link" placeholder="Escribe el texto o URL" />
+				<button class="btn ">Generar QR</button>
+			</form>
+
+			<div id="contenedorQR" class="contenedorQR"></div>
+
+			
+		</section>
+	</body>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+	<script defer src="app.js"></script>
+</html>
